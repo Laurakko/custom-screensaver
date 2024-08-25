@@ -40,7 +40,7 @@ WebOSWindow {
             height: 163
 
             function setRandomColor() {
-                var colors = ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff', '#fff'];
+                var colors = ['#000', '#000', '#000', '#000', '#000', '#000', '#000'];
                 var index = (Math.random() * colors.length) | 0;
                 boing.color = colors[index];
             }
